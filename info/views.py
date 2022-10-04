@@ -9,21 +9,6 @@ from  django.shortcuts import get_object_or_404
 
 class InfoViews(APIView):
 
-    idadeAlunos = [12,13,30,15,16]
-    altura_alunos = [1.70, 2.0, 1.40, 1.55, 1.70]
-    
-    media_altura = sum(altura_alunos) / float(len(altura_alunos))
-    x = 0
-
-    for j in range(len(idadeAlunos)):
-        if idadeAlunos[j] >= 13:
-            if altura_alunos[j] <= media_altura:
-                x += 1
-
-    print(x)
-
-    lista = []
-
     with open('uploads/txt/CNAB','r') as result:
         for i in result:
             tipo = i[0]
