@@ -14,7 +14,7 @@ ROTA -> http://localhost:8000/api/upload/ <br>
 
 <br>
 
-Clique em escolher arquivo, selecione o arquivo com o nome CNAB e clique em upload.
+Clique em escolher arquivo, selecione o arquivo com o nome CNAB e clique em POST.
 
 # LISTANDO INFORMAÇÕES NA TELA
 
